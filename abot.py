@@ -1,4 +1,5 @@
 import discord
+import re
 
 client = discord.Client()
 
@@ -13,6 +14,6 @@ async def on_message(message):
 
     if re.search('[aA]', message.content):
         total = message.content.count('a') + message.content.count('A')
-        await message.channel.send(total)
+        await message.channel.send('You used ' + str(total) + ' of the letter a in your message!')
 
-client.run('your token here')
+client.run('')
