@@ -9,6 +9,8 @@ client = commands.Bot(command_prefix="!")
 
 @client.event
 async def on_message(message):
+    if message.author == client.user:
+        return
     if re.search('[aA]', message.content):
         total = message.content.count('a') + message.content.count('A')
         await message.channel.send('You used ' + str(total) + ' of the letter a in your message!')
