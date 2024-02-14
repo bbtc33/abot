@@ -1,5 +1,5 @@
 #! /bin/bash
-cd /home/larbs/LLM/TinyChatEngine/llm
+cd /home/larbs/LLM/TinyChatEngine/llm # CHANGE TO YOUR CHAT ENGINE PATH
 #chatgpt
 while true
 do
