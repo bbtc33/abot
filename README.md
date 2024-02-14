@@ -4,7 +4,7 @@ ABOT is a very simple discord bot I made to use the MIT HAN Lab's TinyChatEngine
 
 # REQUIREMENTS
 
-Install TinyChatEngine from here(https://github.com/mit-han-lab/TinyChatEngine)
+Install TinyChatEngine from https://github.com/mit-han-lab/TinyChatEngine
 
 Install discord.py and pwntools for python
 
